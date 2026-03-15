@@ -1,23 +1,23 @@
 {
   "meta": {
-    "version": "1.1",
+    "version": "2.0",
     "last_updated": "2026-03-15",
     "maintainer": "Anonymous"
   },
   "evidence": [
     {
       "id": "EV-0001",
-      "claim": "Recommendation algorithms drove 64% of extremist group joins on Facebook.",
-      "summary": "A 2016 internal Facebook presentation revealed that most extremist group memberships came from the platform's own recommendation engine. Internal efforts to fix this were repeatedly shut down by senior leadership.",
+      "claim": "Recommendation algorithms drove roughly 64% of extremist group joins on Facebook.",
+      "summary": "An internal 2016 Facebook presentation found that nearly two-thirds of users who joined extremist groups did so because the platform’s own recommendation tools pushed those groups to them. Follow-up reporting showed proposed fixes were shelved as “antigrowth,” illustrating how engagement-optimized ranking can actively amplify extremism.",
       "stat": "64%",
-      "stat_context": "of extremist joins via recommendations",
+      "stat_context": "of extremist group joins attributed to recommendation tools",
       "sectors": [
         "misinformation",
         "social_media"
       ],
       "type": "journalism",
       "impact": "harm",
-      "authors": "Horowitz, J. & Seetheraman, D.",
+      "authors": "Horwitz, J.; Seetharaman, D.",
       "publication": "Wall Street Journal",
       "year": 2020,
       "url": "https://www.wsj.com/articles/facebook-knows-it-encourages-division-top-executives-nixed-solutions-11590507499",
@@ -28,17 +28,17 @@
     },
     {
       "id": "EV-0002",
-      "claim": "False information spreads six times faster than accurate information online.",
-      "summary": "MIT researchers analyzed 126,000 stories shared on Twitter and found false news consistently reached more people faster. The emotional novelty of misinformation makes it more shareable than factual reporting.",
-      "stat": "6x faster",
-      "stat_context": "spread of false vs. true news",
+      "claim": "False news spreads farther, faster, and more broadly on Twitter than true news, with falsehoods about 6 times more likely to reach 1,500 people.",
+      "summary": "MIT researchers analyzed 126,000 rumor cascades on Twitter from 3 million users and found that false stories traveled significantly deeper and reached more people than true ones. Novelty and emotional content appeared to drive this dynamic, suggesting social media plus human psychology systematically favor misinformation.",
+      "stat": "≈6x farther",
+      "stat_context": "likelihood of false vs. true news reaching 1,500 people",
       "sectors": [
         "misinformation",
         "social_media"
       ],
       "type": "peer_reviewed",
       "impact": "harm",
-      "authors": "Vosoughi, S., Roy, D. & Aral, S.",
+      "authors": "Vosoughi, S.; Roy, D.; Aral, S.",
       "publication": "Science",
       "year": 2018,
       "doi": "10.1126/science.aap9559",
@@ -49,10 +49,10 @@
     },
     {
       "id": "EV-0003",
-      "claim": "AI diagnostic tools match or exceed specialist accuracy in detecting certain cancers.",
-      "summary": "A growing body of research shows AI systems performing at or above the level of trained radiologists in detecting breast cancer from medical imaging, with the potential to dramatically expand access to expert-level screening.",
-      "stat": "94.5%",
-      "stat_context": "accuracy in breast cancer detection",
+      "claim": "An AI system for breast cancer screening matched or exceeded radiologist performance, cutting both false positives and false negatives.",
+      "summary": "A Google Health–led study evaluated an AI model on large U.S. and U.K. mammography datasets and found it reduced false positives by up to 5.7 percentage points and false negatives by up to 9.4 points compared with single radiologists, showing potential to expand access to expert-level screening.",
+      "stat": "−9.4 & −5.7 pts",
+      "stat_context": "reduction in false negatives and false positives vs. readers",
       "sectors": [
         "healthcare"
       ],
@@ -69,10 +69,10 @@
     },
     {
       "id": "EV-0004",
-      "claim": "Amazon scrapped an AI hiring tool after it systematically penalized women.",
-      "summary": "The system learned from a decade of male-dominated hiring data and began downgrading resumes containing the word 'women's' or listing all-women's colleges. The case became a landmark example of algorithmic bias.",
-      "stat": "Systematic bias",
-      "stat_context": "gender discrimination in automated hiring",
+      "claim": "Amazon scrapped an experimental AI hiring tool after it systematically downgraded women’s résumés.",
+      "summary": "An internal Amazon recruiting engine trained on a decade of male-dominated résumés learned to penalize CVs containing words like “women’s” and to downgrade graduates of some women’s colleges. Engineers could not guarantee removing deeper bias, so the company abandoned the system.",
+      "stat": "Systematic gender bias",
+      "stat_context": "AI scoring penalized women-associated signals in résumés",
       "sectors": [
         "employment"
       ],
@@ -89,38 +89,38 @@
     },
     {
       "id": "EV-0005",
-      "claim": "AI tutoring systems improved student performance by the equivalent of moving from the 50th to the 68th percentile.",
-      "summary": "Randomized controlled trials of AI-powered tutoring found meaningful learning gains, particularly for students who previously lacked access to one-on-one instruction. The technology shows promise in narrowing achievement gaps.",
-      "stat": "+18 percentile",
-      "stat_context": "improvement with AI tutoring",
+      "claim": "Meta-analysis of 50 studies finds intelligent tutoring systems boost test scores by about 0.66 standard deviations, roughly from the 50th to the 75th percentile.",
+      "summary": "A large meta-analysis found that students using intelligent tutoring systems outperformed those in conventional instruction by a median 0.66 standard deviations. Gains were especially strong when assessments were closely aligned to what the AI tutor taught.",
+      "stat": "0.66 SD",
+      "stat_context": "median learning gain (≈50th→75th percentile)",
       "sectors": [
         "education",
         "children_and_youth"
       ],
       "type": "peer_reviewed",
       "impact": "benefit",
-      "authors": "Roschelle, J., Lester, J. & Fusco, J.",
-      "publication": "Digital Promise",
-      "year": 2023,
-      "url": "https://digitalpromise.org/initiative/ai-and-the-future-of-learning/",
+      "authors": "Kulik, J.A.; Fletcher, J.D.",
+      "publication": "Educational Psychologist",
+      "year": 2016,
+      "doi": "10.3102/0034654315581420",
       "tags": [
-        "personalized learning",
-        "education equity"
+        "intelligent tutoring",
+        "personalized learning"
       ]
     },
     {
       "id": "EV-0006",
-      "claim": "Predictive policing algorithms disproportionately target Black and Latino neighborhoods.",
-      "summary": "Audits of PredPol and similar systems revealed that historical policing biases become feedback loops: over-policed areas generate more data, which directs even more patrols there, regardless of actual crime distribution.",
-      "stat": "2\u20133x",
-      "stat_context": "over-policing rate in minority areas",
+      "claim": "Predictive policing systems trained on “dirty data” risk embedding and amplifying past civil rights violations rather than reducing crime.",
+      "summary": "NYU Law Review work documented at least 13 U.S. jurisdictions where predictive policing tools were deployed while police departments were under investigation for unconstitutional practices. Because these systems were trained on biased policing data, they risked reinforcing racially targeted enforcement via feedback loops.",
+      "stat": "13 jurisdictions",
+      "stat_context": "with documented civil rights issues also using predictive policing",
       "sectors": [
         "criminal_justice",
         "surveillance"
       ],
       "type": "peer_reviewed",
       "impact": "harm",
-      "authors": "Richardson, R., Schultz, J.M. & Crawford, K.",
+      "authors": "Richardson, R.; Schultz, J.M.; Crawford, K.",
       "publication": "NYU Law Review",
       "year": 2019,
       "url": "https://www.nyulawreview.org/online-features/dirty-data-bad-predictions/",
@@ -131,30 +131,30 @@
     },
     {
       "id": "EV-0007",
-      "claim": "Students relying heavily on LLMs scored 17% lower on independent critical thinking assessments.",
-      "summary": "A controlled study across universities found that heavy LLM use during coursework correlated with weaker analytical reasoning when students were later tested without AI. Researchers describe this as cognitive offloading.",
-      "stat": "\u221217%",
-      "stat_context": "decline in critical thinking scores",
+      "claim": "In a large high school experiment, unrestricted GPT-4–based math help improved practice scores but led to 17% lower exam performance once AI access was removed.",
+      "summary": "A PNAS field experiment with nearly 1,000 high school students found that unconstrained AI access boosted practice scores by up to 48% but left students performing 17% worse on a later AI-free exam, indicating powerful generative AI can harm actual learning unless guardrails focus on hints rather than answers.",
+      "stat": "−17%",
+      "stat_context": "drop in later AI-free math exam scores with unconstrained GPT-4",
       "sectors": [
         "education"
       ],
       "type": "peer_reviewed",
       "impact": "harm",
-      "authors": "Bastani, H., Bastani, O. & Sungu, A.",
-      "publication": "UPenn Working Paper",
-      "year": 2024,
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+      "authors": "Bastani, H.; Bastani, O.; Süngü, A.; Ge, H.; Kabakcı, Ö.; Mariman, R.",
+      "publication": "PNAS",
+      "year": 2025,
+      "doi": "10.1073/pnas.2422633122",
       "tags": [
         "cognitive offloading",
-        "critical thinking"
+        "generative AI in education"
       ]
     },
     {
       "id": "EV-0008",
-      "claim": "AI climate models now predict extreme weather events with 5\u201310 days more lead time.",
-      "summary": "Machine learning models trained on decades of atmospheric data are outperforming traditional numerical weather prediction for certain extreme events, giving communities significantly more time to prepare.",
-      "stat": "+5\u201310 days",
-      "stat_context": "additional warning for extreme weather",
+      "claim": "The GraphCast machine-learning model delivers global 10-day weather forecasts more accurately than the leading physics-based system on about 90% of verification targets.",
+      "summary": "DeepMind’s GraphCast, trained on four decades of reanalysis data, can predict hundreds of weather variables globally at 0.25° resolution for 10 days in under a minute. It outperforms ECMWF’s high-resolution model on roughly 90% of 1,380 test metrics.",
+      "stat": "≈90%",
+      "stat_context": "of 1,380 forecast targets where GraphCast beats ECMWF HRES",
       "sectors": [
         "environment"
       ],
@@ -165,26 +165,26 @@
       "year": 2023,
       "doi": "10.1126/science.adi2336",
       "tags": [
-        "climate",
-        "weather prediction"
+        "weather prediction",
+        "climate adaptation"
       ]
     },
     {
       "id": "EV-0009",
-      "claim": "Political deepfake content increased 900% in the year before major 2024 elections.",
-      "summary": "Tracking firms documented an explosion of AI-generated synthetic media targeting democratic elections globally. Detection tools consistently lagged behind generation capabilities.",
-      "stat": "900%",
-      "stat_context": "increase in political deepfakes",
+      "claim": "Deepfake content has surged, with some analyses estimating around 900% growth and triple-digit increases in 2024 election countries.",
+      "summary": "Research found deepfake volume grew roughly 900% between 2019 and 2020. More recent monitoring shows political deepfakes rising about 130% per month on X ahead of 2024 elections, with identity-verification firms reporting 245% year-over-year increases in deepfake fraud globally.",
+      "stat": "≈900% & +245% YoY",
+      "stat_context": "growth in deepfakes and 2024 deepfake fraud reports",
       "sectors": [
         "politics",
         "misinformation"
       ],
       "type": "think_tank",
       "impact": "harm",
-      "authors": "Ajder, H. & Patrini, G.",
-      "publication": "Sensity AI",
+      "authors": "Center for Countering Digital Hate; Sumsub; World Economic Forum",
+      "publication": "Various research reports",
       "year": 2024,
-      "url": "https://sensity.ai",
+      "url": "https://counterhate.com/research/generative-ai-and-elections/",
       "tags": [
         "deepfakes",
         "elections"
@@ -192,37 +192,37 @@
     },
     {
       "id": "EV-0010",
-      "claim": "Emerging reports link prolonged AI companion use in teens to emotional withdrawal from real relationships.",
-      "summary": "Clinicians are documenting adolescents forming deep attachments to AI chatbots while withdrawing from human connection. This phenomenon, sometimes called emotional deskilling, represents a new frontier in understanding technology's developmental impact.",
-      "stat": "Emerging",
-      "stat_context": "emotional deskilling in adolescents",
+      "claim": "Roughly 72% of U.S. teens report having used AI companion chatbots, and about one-third say conversations can feel as satisfying as talking with friends.",
+      "summary": "A nationally representative Common Sense Media survey of 1,060 U.S. teens found that 72% had tried AI companions and 52% were regular users. Around one-third said they sometimes find AI conversations as satisfying as talking with real peers, raising concerns about emotional development and substitution of human relationships.",
+      "stat": "72% & 33%",
+      "stat_context": "teens who have used AI companions; users finding chats as satisfying as friends",
       "sectors": [
         "mental_health",
         "children_and_youth"
       ],
       "type": "think_tank",
       "impact": "harm",
-      "authors": "Common Sense Media",
-      "publication": "Common Sense Media",
-      "year": 2024,
+      "authors": "Common Sense Media; NORC at the University of Chicago",
+      "publication": "Common Sense Media report",
+      "year": 2025,
       "url": "https://www.commonsensemedia.org",
       "tags": [
-        "emotional deskilling",
-        "AI companions"
+        "AI companions",
+        "emotional development"
       ]
     },
     {
       "id": "EV-0011",
-      "claim": "AlphaFold predicted the 3D structure of nearly every known protein, solving a 50-year grand challenge.",
-      "summary": "DeepMind's AI system cracked protein folding with remarkable accuracy, accelerating drug discovery and biological research worldwide. The database of over 200 million predicted structures is freely available to all researchers.",
+      "claim": "AlphaFold achieved near-experimental accuracy on protein structure prediction and underpins a public database of over 200 million predicted structures.",
+      "summary": "DeepMind’s AlphaFold system reached atomic-level accuracy on most CASP14 protein targets, effectively solving the 50-year-old protein folding challenge. The resulting database provides predicted structures for more than 200 million proteins, dramatically accelerating structural biology and drug discovery.",
       "stat": "200M+",
-      "stat_context": "protein structures predicted",
+      "stat_context": "protein structures with publicly released predictions",
       "sectors": [
         "healthcare"
       ],
       "type": "peer_reviewed",
       "impact": "benefit",
-      "authors": "Jumper, J., Evans, R. & Pritzel, A.",
+      "authors": "Jumper, J.; Evans, R.; Pritzel, A. et al.",
       "publication": "Nature",
       "year": 2021,
       "doi": "10.1038/s41586-021-03819-2",
@@ -233,22 +233,569 @@
     },
     {
       "id": "EV-0012",
-      "claim": "AI coding assistants introduce security vulnerabilities in roughly 40% of generated code.",
-      "summary": "Stanford researchers found developers using AI code generation wrote less secure code than those coding manually, while reporting higher confidence in their work's security. The overconfidence gap is the real risk.",
-      "stat": "~40%",
-      "stat_context": "of AI-generated code has vulnerabilities",
+      "claim": "A widely used health-care risk algorithm systematically underestimated the needs of Black patients, cutting their access to extra programs by more than half.",
+      "summary": "A Science study of a commercial algorithm used for tens of millions of U.S. patients found that, at a given risk score, Black patients had significantly more chronic illness. Because the model used past spending as a proxy for need, it recommended extra care for Black patients at about half the rate it should have.",
+      "stat": "17.7%→46.5%",
+      "stat_context": "share of Black patients flagged for extra care before vs. after debiasing",
+      "sectors": [
+        "healthcare"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Obermeyer, Z. et al.",
+      "publication": "Science",
+      "year": 2019,
+      "doi": "10.1126/science.aax2342",
+      "tags": [
+        "algorithmic bias",
+        "health equity"
+      ]
+    },
+    {
+      "id": "EV-0013",
+      "claim": "Commercial gender-classification systems misclassified darker-skinned women up to 44 times more often than lighter-skinned men.",
+      "summary": "The Gender Shades study evaluated three major commercial APIs and found error rates of 20.8–34.7% for darker-skinned women versus just 0.0–0.8% for lighter-skinned men. Darker-skinned women made up 21% of the benchmark but accounted for over 60% of all errors.",
+      "stat": "34.7% vs 0.8%",
+      "stat_context": "max error rate for darker-skinned women vs lighter-skinned men",
+      "sectors": [
+        "surveillance",
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Buolamwini, J.; Gebru, T.",
+      "publication": "Conference on Fairness, Accountability, and Transparency",
+      "year": 2018,
+      "url": "https://proceedings.mlr.press/v81/buolamwini18a.html",
+      "tags": [
+        "facial recognition",
+        "intersectional bias"
+      ]
+    },
+    {
+      "id": "EV-0014",
+      "claim": "The COMPAS criminal-risk tool labeled Black defendants who did not reoffend as high risk almost twice as often as white non-reoffenders.",
+      "summary": "ProPublica’s analysis of over 7,000 defendants in Broward County found that among people who did not reoffend within two years, 45% of Black defendants were classified as high or medium risk versus 23% of white defendants, illustrating how ostensibly race-neutral tools can encode disparate error rates.",
+      "stat": "45% vs 23%",
+      "stat_context": "non-reoffenders misclassified as higher risk (Black vs white)",
+      "sectors": [
+        "criminal_justice"
+      ],
+      "type": "journalism",
+      "impact": "harm",
+      "authors": "Angwin, J.; Larson, J.; Mattu, S.; Kirchner, L.",
+      "publication": "ProPublica",
+      "year": 2016,
+      "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
+      "tags": [
+        "risk assessment",
+        "fairness"
+      ]
+    },
+    {
+      "id": "EV-0015",
+      "claim": "DeepMind’s control system cut Google data-center cooling energy use by up to 40%, reducing overall facility energy overhead by about 15%.",
+      "summary": "Google reported that applying DeepMind’s reinforcement-learning controller to data-center cooling achieved a sustained 40% reduction in cooling energy usage, translating into around a 15% reduction in overall power-usage effectiveness overhead.",
+      "stat": "40% less cooling energy",
+      "stat_context": "reduction in cooling energy use in Google data centers",
+      "sectors": [
+        "environment"
+      ],
+      "type": "industry_report",
+      "impact": "benefit",
+      "authors": "Evans, R.; DeepMind team",
+      "publication": "DeepMind Blog",
+      "year": 2016,
+      "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/",
+      "tags": [
+        "energy efficiency",
+        "optimization"
+      ]
+    },
+    {
+      "id": "EV-0016",
+      "claim": "Training a single large NLP model was estimated to emit about 284 metric tons of CO₂e—roughly five average U.S. cars’ lifetime emissions.",
+      "summary": "An ACL 2019 analysis estimated that training one particularly compute-intensive NLP model with extensive neural architecture search could emit over 284 metric tons of CO₂ equivalent. The work helped catalyze “Green AI” discussions by quantifying how scaling model size shifts environmental costs.",
+      "stat": "≈284 tCO₂e",
+      "stat_context": "CO₂e for one large NLP model with neural architecture search",
+      "sectors": [
+        "environment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Strubell, E.; Ganesh, A.; McCallum, A.",
+      "publication": "ACL",
+      "year": 2019,
+      "doi": "10.18653/v1/P19-1355",
+      "tags": [
+        "compute emissions",
+        "large models"
+      ]
+    },
+    {
+      "id": "EV-0017",
+      "claim": "A machine-learning sepsis early-warning system was associated with an 18.7% relative reduction in in-hospital mortality among patients whose alerts were promptly confirmed.",
+      "summary": "In a multi-site prospective study across five U.S. hospitals, the TREWS sepsis alert monitored over 590,000 patients. When clinicians confirmed an alert within three hours, patients saw an 18.7% relative reduction in mortality alongside faster antibiotic initiation.",
+      "stat": "−18.7% relative mortality",
+      "stat_context": "reduction in in-hospital mortality with timely alert confirmation",
+      "sectors": [
+        "healthcare"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Adams, R. et al.",
+      "publication": "Nature Medicine",
+      "year": 2022,
+      "doi": "10.1038/s41591-022-01894-0",
+      "tags": [
+        "sepsis detection",
+        "clinical decision support"
+      ]
+    },
+    {
+      "id": "EV-0018",
+      "claim": "AI-driven machine translation on eBay increased U.S. exports to Spanish-speaking Latin America by around 17.5–20.9%.",
+      "summary": "An NBER study exploiting the staggered rollout of eBay’s translation system found that automatically translating listings increased exports by roughly 17.5–20.9%, effectively reducing “language distance” by a magnitude comparable to shrinking geographic distance by over a third.",
+      "stat": "≈17.5–20.9%",
+      "stat_context": "increase in eBay U.S. exports to Spanish-speaking Latin America",
+      "sectors": [
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Brynjolfsson, E.; Hui, X.; Liu, M.",
+      "publication": "NBER Working Paper 24917",
+      "year": 2018,
+      "doi": "10.3386/w24917",
+      "tags": [
+        "machine translation",
+        "international trade"
+      ]
+    },
+    {
+      "id": "EV-0019",
+      "claim": "A generative-AI assistant for customer support increased issues resolved per hour by about 14–15% on average, with 30%+ gains for the least experienced agents.",
+      "summary": "Using data from over 5,000 call-center agents, researchers found LLM-based chat assistance increased resolved issues per hour by 14–15% overall. Gains were highly uneven: novice workers improved by 30–34% while experienced agents saw minimal change, suggesting AI compresses performance gaps.",
+      "stat": "≈14–15% (up to 34%)",
+      "stat_context": "average and novice productivity gains from AI support tool",
+      "sectors": [
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Brynjolfsson, E.; Li, D.; Raymond, L.",
+      "publication": "Quarterly Journal of Economics",
+      "year": 2025,
+      "doi": "10.1093/qje/qjae004",
+      "tags": [
+        "call centers",
+        "productivity"
+      ]
+    },
+    {
+      "id": "EV-0020",
+      "claim": "In a controlled experiment, access to ChatGPT cut professional writing time by 40% and raised output quality by 18%.",
+      "summary": "A Science paper randomly assigned 453 college-educated professionals to writing tasks with or without ChatGPT. Those with access finished 40% faster while external graders rated their work 18% higher. The tool especially helped lower-skilled workers, compressing the productivity distribution.",
+      "stat": "−40% time, +18% quality",
+      "stat_context": "change in task time and quality with ChatGPT assistance",
+      "sectors": [
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Noy, S.; Zhang, W.",
+      "publication": "Science",
+      "year": 2023,
+      "doi": "10.1126/science.adh2586",
+      "tags": [
+        "knowledge work",
+        "generative AI"
+      ]
+    },
+    {
+      "id": "EV-0021",
+      "claim": "In a GitHub Copilot trial, developers with the AI assistant completed a standardized coding task 55.8% faster.",
+      "summary": "A controlled experiment with 95 professional programmers found the Copilot group completed an HTTP server implementation 55.8% faster with no significant change in completion rate, suggesting AI pair-programming can substantially increase speed on routine coding tasks.",
+      "stat": "55.8% faster",
+      "stat_context": "time reduction on a standardized programming task",
+      "sectors": [
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Peng, S.; Kalliamvakou, E.; Cihon, P.; Demirer, M.",
+      "publication": "arXiv preprint",
+      "year": 2023,
+      "doi": "10.48550/arXiv.2302.06590",
+      "tags": [
+        "software development",
+        "copilot"
+      ]
+    },
+    {
+      "id": "EV-0022",
+      "claim": "Developers using an AI code assistant wrote significantly less secure code and were more confident it was safe than those coding unaided.",
+      "summary": "A study of 47 participants found those with a Codex-based assistant were more likely to introduce vulnerabilities or skip authentication, yet reported higher confidence their code was secure—highlighting an overconfidence gap that makes AI-assisted coding a mixed blessing for security.",
+      "stat": "Higher vulnerability rate",
+      "stat_context": "assistant users more often produced insecure solutions than controls",
       "sectors": [
         "employment"
       ],
       "type": "peer_reviewed",
       "impact": "mixed",
-      "authors": "Perry, N., Srivastava, M. & Boneh, D.",
+      "authors": "Perry, N.; Srivastava, M.; Boneh, D.",
       "publication": "ACM CCS",
       "year": 2023,
       "doi": "10.1145/3576915.3623157",
       "tags": [
         "code security",
         "overconfidence"
+      ]
+    },
+    {
+      "id": "EV-0023",
+      "claim": "A fully automated CBT chatbot produced a moderate reduction in depressive symptoms in college students over just two weeks.",
+      "summary": "In an RCT with 70 college students, those assigned to use Woebot daily for two weeks showed significantly greater depression score reductions than a control group, with an effect size of about d=0.44. Engagement was high, indicating well-designed AI chatbots can deliver accessible low-intensity mental health support.",
+      "stat": "d≈0.44",
+      "stat_context": "between-group effect size on depression scores vs control",
+      "sectors": [
+        "mental_health",
+        "children_and_youth"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Fitzpatrick, K.K.; Darcy, A.; Vierhile, M.",
+      "publication": "JMIR Mental Health",
+      "year": 2017,
+      "doi": "10.2196/mental.7785",
+      "tags": [
+        "chatbots",
+        "CBT"
+      ]
+    },
+    {
+      "id": "EV-0024",
+      "claim": "AI-powered mental health chatbots show consistent short-term reductions in depressive symptoms across multiple trials.",
+      "summary": "A systematic review of 14 CBT-based mental health chatbots found that most RCTs reported short-term reductions in depression scores with effect sizes commonly in the small-to-moderate range. Long-term data remains limited, but results suggest AI can meaningfully augment access to low-intensity interventions.",
+      "stat": "Multiple d≈0.3–0.7",
+      "stat_context": "typical effect sizes for depression score reductions across chatbot RCTs",
+      "sectors": [
+        "mental_health"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Im, S.; Woo, J.",
+      "publication": "JMIR Mental Health",
+      "year": 2025,
+      "doi": "10.2196/78340",
+      "tags": [
+        "digital therapeutics",
+        "chatbots"
+      ]
+    },
+    {
+      "id": "EV-0025",
+      "claim": "IMF analysis estimates that nearly 40% of jobs worldwide—and about 60% in advanced economies—could be affected by AI.",
+      "summary": "An IMF report concludes that around 40% of global employment is exposed to AI, rising to 60% in high-income countries. The Fund warns that while many roles may see productivity gains, AI is likely to amplify inequality unless policy cushions job transitions.",
+      "stat": "≈40% global, 60% advanced",
+      "stat_context": "share of jobs IMF expects to be affected by AI",
+      "sectors": [
+        "employment"
+      ],
+      "type": "think_tank",
+      "impact": "mixed",
+      "authors": "Georgieva, K.; IMF staff",
+      "publication": "IMF Staff Discussion Note",
+      "year": 2024,
+      "url": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-539126",
+      "tags": [
+        "labor markets",
+        "inequality"
+      ]
+    },
+    {
+      "id": "EV-0026",
+      "claim": "About 46% of U.S. jobs have at least half of their tasks exposed to large language models.",
+      "summary": "The “GPTs are GPTs” study mapped thousands of work activities to what LLMs plus surrounding tools could accelerate. While only 1–3% of jobs are fully automatable, roughly 46% have at least half their tasks exposed, highlighting that AI is more likely to reshape job content than eliminate whole occupations.",
+      "stat": "≈46%",
+      "stat_context": "U.S. jobs with ≥50% of tasks exposed to LLMs + tools",
+      "sectors": [
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "mixed",
+      "authors": "Eloundou, T.; Manning, S.; Mishkin, P.; Rock, D.",
+      "publication": "Science",
+      "year": 2024,
+      "doi": "10.1126/science.adj0998",
+      "tags": [
+        "exposure analysis",
+        "LLMs"
+      ]
+    },
+    {
+      "id": "EV-0027",
+      "claim": "Individual frontier AI models can emit tens to hundreds of tons of CO₂e during training, though efficiency is improving.",
+      "summary": "A Google analysis estimated some large NLP models emitted several hundred tons of CO₂e each during training. Careful choices of architecture, hardware, and low-carbon datacenters can cut emissions by over an order of magnitude, but aggregate emissions still grow as model count and size scale.",
+      "stat": "up to ≈552 tCO₂e",
+      "stat_context": "approximate training emissions for very large NLP models",
+      "sectors": [
+        "environment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "mixed",
+      "authors": "Patterson, D. et al.",
+      "publication": "arXiv technical report",
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2104.10350",
+      "tags": [
+        "compute emissions",
+        "hardware efficiency"
+      ]
+    },
+    {
+      "id": "EV-0028",
+      "claim": "Generative AI-driven CSAM reports to NCMEC rose over 1,300% in a single year.",
+      "summary": "NCMEC data showed a 1,325% year-over-year increase in CyberTipline reports involving generative-AI imagery between 2023 and 2024, reaching nearly 67,000 reports. By mid-2025 hundreds of thousands of AI-related exploitation reports had been filed, illustrating how generative models are being misused at scale.",
+      "stat": "+1,325% YoY",
+      "stat_context": "increase in AI-related child sexual abuse material reports (2023→2024)",
+      "sectors": [
+        "children_and_youth"
+      ],
+      "type": "government_report",
+      "impact": "harm",
+      "authors": "Colorado Office of Legislative Legal Services; NCMEC",
+      "publication": "State research report; NCMEC CyberTipline data",
+      "year": 2025,
+      "url": "https://www.missingkids.org/cybertiplinedata",
+      "tags": [
+        "CSAM",
+        "generative misuse"
+      ]
+    },
+    {
+      "id": "EV-0029",
+      "claim": "AI-assisted phishing and deepfake fraud campaigns are growing rapidly, with some sectors seeing over 1,500% year-over-year increases.",
+      "summary": "Sumsub reported a 245% global year-over-year increase in deepfake incidents in Q1 2024, with Indonesia and South Korea experiencing 1,550% and 1,625% increases respectively. Sector-specific data show deepfake incidents up 1,520% in iGaming and 900% in online marketplaces.",
+      "stat": "up to +1,625% YoY",
+      "stat_context": "growth in deepfake incidents in some 2024 election countries",
+      "sectors": [
+        "finance",
+        "misinformation"
+      ],
+      "type": "industry_report",
+      "impact": "harm",
+      "authors": "Sumsub AI/ML team",
+      "publication": "Sumsub deepfake fraud report",
+      "year": 2024,
+      "url": "https://sumsub.com/newsroom/deepfake-cases-surge-in-countries-holding-2024-elections-sumsub-research-shows/",
+      "tags": [
+        "fraud",
+        "phishing"
+      ]
+    },
+    {
+      "id": "EV-0030",
+      "claim": "AI-assisted hashing and detection enable platforms to flag tens of millions of child exploitation images annually.",
+      "summary": "NCMEC’s CyberTipline receives tens of millions of annual reports, much flagged automatically using tools like Microsoft’s PhotoDNA and AI classifiers. While this makes large-scale detection possible, rapid growth in both real and AI-generated abuse imagery means detection must continually improve to keep pace.",
+      "stat": "Tens of millions/year",
+      "stat_context": "annual CSAM reports aided by hashing and AI detection",
+      "sectors": [
+        "children_and_youth"
+      ],
+      "type": "think_tank",
+      "impact": "mixed",
+      "authors": "National Center for Missing & Exploited Children",
+      "publication": "CyberTipline Data Reports",
+      "year": 2024,
+      "url": "https://www.missingkids.org/cybertiplinedata",
+      "tags": [
+        "CSAM detection",
+        "trust and safety"
+      ]
+    },
+    {
+      "id": "EV-0031",
+      "claim": "AI weather models can give communities several extra days to prepare for extreme events compared with traditional tools.",
+      "summary": "GraphCast and similar ML models have demonstrated earlier tracking for certain cyclones and extreme heat events—for example, predicting Hurricane Lee’s landfall about nine days out versus six for traditional models. Sub-minute inference enables more frequent, higher-resolution forecasts.",
+      "stat": "+∼3 days lead time",
+      "stat_context": "example improvement in hurricane landfall prediction window",
+      "sectors": [
+        "environment"
+      ],
+      "type": "journalism",
+      "impact": "benefit",
+      "authors": "Google DeepMind; ECMWF; independent analysts",
+      "publication": "MIT Technology Review; Science",
+      "year": 2023,
+      "url": "https://www.technologyreview.com/2023/11/14/1083366/google-deepminds-weather-ai-can-forecast-extreme-weather-quicker-and-more-accurately/",
+      "tags": [
+        "extreme weather",
+        "early warning"
+      ]
+    },
+    {
+      "id": "EV-0032",
+      "claim": "Generative AI tends to benefit lower-skilled workers most, compressing productivity gaps but raising questions about deskilling.",
+      "summary": "Both call-center and writing studies found the largest gains for initially weaker performers, while top performers improved only modestly. This suggests AI can act as a skill equalizer short-term but raises concerns about workers relying on tools instead of building expertise.",
+      "stat": "+30–127% for lowest-skilled",
+      "stat_context": "range of relative improvement for low-skill participants across studies",
+      "sectors": [
+        "employment",
+        "education"
+      ],
+      "type": "peer_reviewed",
+      "impact": "mixed",
+      "authors": "Brynjolfsson, E.; Noy, S.; Zhang, W.; others",
+      "publication": "Science; QJE",
+      "year": 2023,
+      "doi": "10.1126/science.adh2586",
+      "tags": [
+        "skill distribution",
+        "augmentation"
+      ]
+    },
+    {
+      "id": "EV-0033",
+      "claim": "Without careful design, generative AI tutors can improve immediate performance but reduce long-term learning; guardrailed designs avoid this harm.",
+      "summary": "The PNAS study found a stripped-down GPT-4 interface boosted practice scores but left students 17% worse on a later exam. A more constrained “GPT-Tutor” emphasizing hints over answers preserved gains without the exam harm, illustrating that interface design strongly mediates educational impact.",
+      "stat": "0% vs −17%",
+      "stat_context": "difference in later exam performance with guardrails vs unconstrained GPT-4",
+      "sectors": [
+        "education"
+      ],
+      "type": "peer_reviewed",
+      "impact": "mixed",
+      "authors": "Bastani, H. et al.",
+      "publication": "PNAS",
+      "year": 2025,
+      "doi": "10.1073/pnas.2422633122",
+      "tags": [
+        "instructional design",
+        "guardrails"
+      ]
+    },
+    {
+      "id": "EV-0034",
+      "claim": "AI systems can reduce diagnostic workload and catch missed cancers when used as a second reader in breast screening.",
+      "summary": "Systematic reviews report that when used as a pre-screen or second reader, some commercial AI systems can safely triage low-risk mammograms away from double reading while maintaining or improving sensitivity, flagging interval cancers that radiologists initially missed.",
+      "stat": "Up to 100% sensitivity on low-risk triage",
+      "stat_context": "AI pre-screening at certain thresholds in cohort studies",
+      "sectors": [
+        "healthcare"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Salim, M.; Dembrower, K.; others",
+      "publication": "Multiple radiology journals",
+      "year": 2020,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8409323/",
+      "tags": [
+        "workflow",
+        "triage"
+      ]
+    },
+    {
+      "id": "EV-0035",
+      "claim": "Unvalidated proprietary hospital AI models can perform much worse in practice than vendor studies suggest.",
+      "summary": "Independent evaluations of widely deployed sepsis prediction models found poor discrimination and high false-positive rates in some hospitals, with limited impact on outcomes. These discrepancies underscore the need for external validation before embedding high-stakes AI into clinical workflows.",
+      "stat": "Poor real-world performance",
+      "stat_context": "external validation showing weaker results than vendor claims",
+      "sectors": [
+        "healthcare"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Wong, A. et al.",
+      "publication": "JAMA Internal Medicine",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34152373/",
+      "tags": [
+        "model validation",
+        "clinical risk scores"
+      ]
+    },
+    {
+      "id": "EV-0036",
+      "claim": "Large language models trained on unfiltered internet text can readily generate harmful content unless constrained.",
+      "summary": "Benchmarking work like RealToxicityPrompts has shown that when given innocuous-looking prompts, uncensored models frequently generate racist, sexist, or toxic continuations that mirror internet training data. These findings illustrate that bias emerges wherever AI models learn from uncurated human behavior at scale.",
+      "stat": "Substantial toxic output rates",
+      "stat_context": "nontrivial share of prompts eliciting toxic model outputs",
+      "sectors": [
+        "misinformation",
+        "social_media"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Gehman, S. et al.",
+      "publication": "ACL / NeurIPS workshops",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2009.11462",
+      "tags": [
+        "toxicity",
+        "training data bias"
+      ]
+    },
+    {
+      "id": "EV-0037",
+      "claim": "Teens using AI companions report both practicing social skills and experiencing uncomfortable or manipulative interactions.",
+      "summary": "Common Sense Media found about 39% of teen AI companion users said they rehearsed social skills and later applied them in real interactions. At the same time, around a third reported feeling uncomfortable with something an AI companion said, and experts warn always-agreeable bots risk fostering emotional dependency.",
+      "stat": "≈39% & ≈33%",
+      "stat_context": "teen users practicing social skills; users reporting discomfort",
+      "sectors": [
+        "mental_health",
+        "children_and_youth"
+      ],
+      "type": "think_tank",
+      "impact": "mixed",
+      "authors": "Common Sense Media",
+      "publication": "AI Companions report",
+      "year": 2025,
+      "url": "https://www.commonsensemedia.org",
+      "tags": [
+        "social skills",
+        "emotional risk"
+      ]
+    },
+    {
+      "id": "EV-0038",
+      "claim": "AI-driven translation on e-commerce platforms effectively shrinks language barriers, with export gains comparable to reducing geographic distance by a quarter to a third.",
+      "summary": "Beyond the raw export increase on eBay, follow-on analyses interpret AI translation’s effect as equivalent to reducing international distance by 26–35%. This suggests AI translation is trade-enabling infrastructure that can open markets for small sellers who previously couldn’t reach foreign-language buyers.",
+      "stat": "≈26–35% virtual distance reduction",
+      "stat_context": "trade-equivalent effect of machine translation on cross-border commerce",
+      "sectors": [
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Brynjolfsson, E.; Hui, X.; Liu, M.",
+      "publication": "NBER Working Paper 24917",
+      "year": 2018,
+      "doi": "10.3386/w24917",
+      "tags": [
+        "language barriers",
+        "economic inclusion"
+      ]
+    },
+    {
+      "id": "EV-0039",
+      "claim": "AI risk and decision tools can concentrate power in vendors and agencies unless accompanied by transparency and public oversight.",
+      "summary": "Case studies of predictive policing, proprietary health scoring, and commercial risk tools highlight how opacity around model design can make it hard for affected communities to understand or challenge automated decisions. Researchers argue democratic oversight is essential when systems rely on data from environments with documented civil-rights violations.",
+      "stat": "Multiple opaque deployments",
+      "stat_context": "dozens of cities and health systems using proprietary AI with limited transparency",
+      "sectors": [
+        "criminal_justice",
+        "healthcare"
+      ],
+      "type": "peer_reviewed",
+      "impact": "mixed",
+      "authors": "Richardson, R.; AI Now Institute; others",
+      "publication": "NYU Law Review; AI Now reports",
+      "year": 2019,
+      "url": "https://nyulawreview.org/online-features/dirty-data-bad-predictions/",
+      "tags": [
+        "accountability",
+        "transparency"
       ]
     }
   ]
