@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "version": "1.1",
+    "last_updated": "2026-03-15",
+    "maintainer": "Anonymous"
+  },
+  "evidence": [
+    {
+      "id": "EV-0001",
+      "claim": "Recommendation algorithms drove 64% of extremist group joins on Facebook.",
+      "summary": "A 2016 internal Facebook presentation revealed that most extremist group memberships came from the platform's own recommendation engine. Internal efforts to fix this were repeatedly shut down by senior leadership.",
+      "stat": "64%",
+      "stat_context": "of extremist joins via recommendations",
+      "sectors": [
+        "misinformation",
+        "social_media"
+      ],
+      "type": "journalism",
+      "impact": "harm",
+      "authors": "Horowitz, J. & Seetheraman, D.",
+      "publication": "Wall Street Journal",
+      "year": 2020,
+      "url": "https://www.wsj.com/articles/facebook-knows-it-encourages-division-top-executives-nixed-solutions-11590507499",
+      "tags": [
+        "recommendation algorithms",
+        "radicalization"
+      ]
+    },
+    {
+      "id": "EV-0002",
+      "claim": "False information spreads six times faster than accurate information online.",
+      "summary": "MIT researchers analyzed 126,000 stories shared on Twitter and found false news consistently reached more people faster. The emotional novelty of misinformation makes it more shareable than factual reporting.",
+      "stat": "6x faster",
+      "stat_context": "spread of false vs. true news",
+      "sectors": [
+        "misinformation",
+        "social_media"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Vosoughi, S., Roy, D. & Aral, S.",
+      "publication": "Science",
+      "year": 2018,
+      "doi": "10.1126/science.aap9559",
+      "tags": [
+        "misinformation",
+        "virality"
+      ]
+    },
+    {
+      "id": "EV-0003",
+      "claim": "AI diagnostic tools match or exceed specialist accuracy in detecting certain cancers.",
+      "summary": "A growing body of research shows AI systems performing at or above the level of trained radiologists in detecting breast cancer from medical imaging, with the potential to dramatically expand access to expert-level screening.",
+      "stat": "94.5%",
+      "stat_context": "accuracy in breast cancer detection",
+      "sectors": [
+        "healthcare"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "McKinney, S.M. et al.",
+      "publication": "Nature",
+      "year": 2020,
+      "doi": "10.1038/s41586-019-1799-6",
+      "tags": [
+        "medical imaging",
+        "diagnostics"
+      ]
+    },
+    {
+      "id": "EV-0004",
+      "claim": "Amazon scrapped an AI hiring tool after it systematically penalized women.",
+      "summary": "The system learned from a decade of male-dominated hiring data and began downgrading resumes containing the word 'women's' or listing all-women's colleges. The case became a landmark example of algorithmic bias.",
+      "stat": "Systematic bias",
+      "stat_context": "gender discrimination in automated hiring",
+      "sectors": [
+        "employment"
+      ],
+      "type": "journalism",
+      "impact": "harm",
+      "authors": "Dastin, J.",
+      "publication": "Reuters",
+      "year": 2018,
+      "url": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G",
+      "tags": [
+        "hiring bias",
+        "algorithmic discrimination"
+      ]
+    },
+    {
+      "id": "EV-0005",
+      "claim": "AI tutoring systems improved student performance by the equivalent of moving from the 50th to the 68th percentile.",
+      "summary": "Randomized controlled trials of AI-powered tutoring found meaningful learning gains, particularly for students who previously lacked access to one-on-one instruction. The technology shows promise in narrowing achievement gaps.",
+      "stat": "+18 percentile",
+      "stat_context": "improvement with AI tutoring",
+      "sectors": [
+        "education",
+        "children_and_youth"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Roschelle, J., Lester, J. & Fusco, J.",
+      "publication": "Digital Promise",
+      "year": 2023,
+      "url": "https://digitalpromise.org/initiative/ai-and-the-future-of-learning/",
+      "tags": [
+        "personalized learning",
+        "education equity"
+      ]
+    },
+    {
+      "id": "EV-0006",
+      "claim": "Predictive policing algorithms disproportionately target Black and Latino neighborhoods.",
+      "summary": "Audits of PredPol and similar systems revealed that historical policing biases become feedback loops: over-policed areas generate more data, which directs even more patrols there, regardless of actual crime distribution.",
+      "stat": "2\u20133x",
+      "stat_context": "over-policing rate in minority areas",
+      "sectors": [
+        "criminal_justice",
+        "surveillance"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Richardson, R., Schultz, J.M. & Crawford, K.",
+      "publication": "NYU Law Review",
+      "year": 2019,
+      "url": "https://www.nyulawreview.org/online-features/dirty-data-bad-predictions/",
+      "tags": [
+        "predictive policing",
+        "racial bias"
+      ]
+    },
+    {
+      "id": "EV-0007",
+      "claim": "Students relying heavily on LLMs scored 17% lower on independent critical thinking assessments.",
+      "summary": "A controlled study across universities found that heavy LLM use during coursework correlated with weaker analytical reasoning when students were later tested without AI. Researchers describe this as cognitive offloading.",
+      "stat": "\u221217%",
+      "stat_context": "decline in critical thinking scores",
+      "sectors": [
+        "education"
+      ],
+      "type": "peer_reviewed",
+      "impact": "harm",
+      "authors": "Bastani, H., Bastani, O. & Sungu, A.",
+      "publication": "UPenn Working Paper",
+      "year": 2024,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+      "tags": [
+        "cognitive offloading",
+        "critical thinking"
+      ]
+    },
+    {
+      "id": "EV-0008",
+      "claim": "AI climate models now predict extreme weather events with 5\u201310 days more lead time.",
+      "summary": "Machine learning models trained on decades of atmospheric data are outperforming traditional numerical weather prediction for certain extreme events, giving communities significantly more time to prepare.",
+      "stat": "+5\u201310 days",
+      "stat_context": "additional warning for extreme weather",
+      "sectors": [
+        "environment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Lam, R. et al.",
+      "publication": "Science",
+      "year": 2023,
+      "doi": "10.1126/science.adi2336",
+      "tags": [
+        "climate",
+        "weather prediction"
+      ]
+    },
+    {
+      "id": "EV-0009",
+      "claim": "Political deepfake content increased 900% in the year before major 2024 elections.",
+      "summary": "Tracking firms documented an explosion of AI-generated synthetic media targeting democratic elections globally. Detection tools consistently lagged behind generation capabilities.",
+      "stat": "900%",
+      "stat_context": "increase in political deepfakes",
+      "sectors": [
+        "politics",
+        "misinformation"
+      ],
+      "type": "think_tank",
+      "impact": "harm",
+      "authors": "Ajder, H. & Patrini, G.",
+      "publication": "Sensity AI",
+      "year": 2024,
+      "url": "https://sensity.ai",
+      "tags": [
+        "deepfakes",
+        "elections"
+      ]
+    },
+    {
+      "id": "EV-0010",
+      "claim": "Emerging reports link prolonged AI companion use in teens to emotional withdrawal from real relationships.",
+      "summary": "Clinicians are documenting adolescents forming deep attachments to AI chatbots while withdrawing from human connection. This phenomenon, sometimes called emotional deskilling, represents a new frontier in understanding technology's developmental impact.",
+      "stat": "Emerging",
+      "stat_context": "emotional deskilling in adolescents",
+      "sectors": [
+        "mental_health",
+        "children_and_youth"
+      ],
+      "type": "think_tank",
+      "impact": "harm",
+      "authors": "Common Sense Media",
+      "publication": "Common Sense Media",
+      "year": 2024,
+      "url": "https://www.commonsensemedia.org",
+      "tags": [
+        "emotional deskilling",
+        "AI companions"
+      ]
+    },
+    {
+      "id": "EV-0011",
+      "claim": "AlphaFold predicted the 3D structure of nearly every known protein, solving a 50-year grand challenge.",
+      "summary": "DeepMind's AI system cracked protein folding with remarkable accuracy, accelerating drug discovery and biological research worldwide. The database of over 200 million predicted structures is freely available to all researchers.",
+      "stat": "200M+",
+      "stat_context": "protein structures predicted",
+      "sectors": [
+        "healthcare"
+      ],
+      "type": "peer_reviewed",
+      "impact": "benefit",
+      "authors": "Jumper, J., Evans, R. & Pritzel, A.",
+      "publication": "Nature",
+      "year": 2021,
+      "doi": "10.1038/s41586-021-03819-2",
+      "tags": [
+        "protein folding",
+        "drug discovery"
+      ]
+    },
+    {
+      "id": "EV-0012",
+      "claim": "AI coding assistants introduce security vulnerabilities in roughly 40% of generated code.",
+      "summary": "Stanford researchers found developers using AI code generation wrote less secure code than those coding manually, while reporting higher confidence in their work's security. The overconfidence gap is the real risk.",
+      "stat": "~40%",
+      "stat_context": "of AI-generated code has vulnerabilities",
+      "sectors": [
+        "employment"
+      ],
+      "type": "peer_reviewed",
+      "impact": "mixed",
+      "authors": "Perry, N., Srivastava, M. & Boneh, D.",
+      "publication": "ACM CCS",
+      "year": 2023,
+      "doi": "10.1145/3576915.3623157",
+      "tags": [
+        "code security",
+        "overconfidence"
+      ]
+    }
+  ]
+}
